@@ -2,10 +2,10 @@
 {
     public class Historia
     {
-        public string Genero { get; set; }
-        public string Protagonista { get; set; }
-        public string Escenario { get; set; }
-        public string Conflicto { get; set; }
-        public string Resolucion { get; set; }
+        public required string Genero { get; set; }
+        public required string Protagonista { get; set; }
+        public required string Escenario { get; set; }
+        public required string Conflicto { get; set; }
+        public required string Resolucion { get; set; }
     }
 }

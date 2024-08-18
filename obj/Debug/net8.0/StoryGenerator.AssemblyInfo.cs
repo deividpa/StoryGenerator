@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoryGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ab6df1ec0f2169659ec3759e7dd2de8215cad56")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoryGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoryGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,11 +9,11 @@ public class IndexModel : PageModel
     private readonly GeneradorHistoriasService _generadorService;
 
     [BindProperty]
-    public string GeneroSeleccionado { get; set; }
+    public string? GeneroSeleccionado { get; set; }
 
-    public SelectList Generos { get; set; }
+    public SelectList? Generos { get; set; }
 
-    public Historia HistoriaGenerada { get; set; }
+    public Historia? HistoriaGenerada { get; set; }
 
     public IndexModel(GeneradorHistoriasService generadorService)
     {

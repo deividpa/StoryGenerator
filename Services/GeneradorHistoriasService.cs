@@ -6,7 +6,7 @@ public class GeneradorHistoriasService
 {
     private readonly Random _random = new Random();
 
-    private readonly List<string> _generos = new List<string> { "Fantasía", "Ciencia Ficción", "Misterio", "Romance", "Aventura" };
+    private readonly List<string> _generos = new List<string> { "Fantasía", "Ciencia Ficción", "Misterio", "Romance", "Aventura", "Terror" };
     private readonly List<string> _protagonistas = new List<string> { "un valiente caballero", "una científica brillante", "un detective astuto", "una artista soñadora", "un explorador intrépido" };
     private readonly List<string> _escenarios = new List<string> { "en un reino mágico", "en una estación espacial", "en una mansión antigua", "en una ciudad costera", "en una selva inexplorada" };
     private readonly List<string> _conflictos = new List<string> { "debe enfrentarse a un dragón", "descubre una conspiración", "resuelve un crimen misterioso", "encuentra el amor verdadero", "busca un tesoro legendario" };
